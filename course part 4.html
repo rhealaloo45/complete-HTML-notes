@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>registeration form</h2>
+    <form action.php="/action.php">
+        <input type="text" placeholder="username"><br>
+        <input type="password" placeholder="password"><br><br>
+        <h3>select your class</h3> <br>
+        <label for="101">
+        <input type="radio" value="class XI" name="class" id="101"> class XI<!--radio allows only one selection-->
+    </label><br>
+    <label for="102">
+        <input type="radio" value="class XII" name="class" id="102"> class XII
+    </label><br><br>
+    <h3>select your fav subjects</h3> <br>
+    <label for="math">
+        <input type="checkbox" value="math" name="subject" id="101"> math
+    </label><br>
+    <label for="physics">
+        <input type="checkbox" value="physics" name="subject" id="102"> physics
+    </label><br>
+    <label for="chemistry">
+        <input type="checkbox" value="chemistry" name="subject" id="103"> chemistry
+    </label><br>
+    <label for="computer">
+        <input type="checkbox" value="computer" name="subject" id="104"> computer
+    </label><br><br>
+    <h4>select your city</h4>
+    <select name="city">*
+        <option value="mumbai">mumbai</option>
+        <option value="bangalore">bangalore</option>
+        <option value="pune">pune</option> required<!--make compulsory to fill this field-->
+    </select>
+    <br>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/yoigsHYc77s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <br>
+    <video width="560" height="315" src="/VSIX3719.MOV" controls loop muted autoplay poster="IMG_1548.JPG">my video</video>
+    <br>
+    <textarea name="feedback" id="101" placeholder="please give your feedbaack here" rows="5">
+        feedback
+    </textarea>
+    <br>
+    <input type="submit" value="submit">
+    <input type="file" ><!--to select file-->
+    <input type="reset" ><!--to reset form-->
+    <input type="image" ><!--to click image to give info to server-->
+    </form>
+</body>
+</html>
